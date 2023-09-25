@@ -134,15 +134,15 @@ export default {
         },
       ],
       "header": {
-        "planet": "Cornucopia",
+        "planet": "Cressidium",
         "year": "5014u",
-        "system": "Boundary Garden",
-        "gate": "Fansipan Station",
-        "ring": "Annamite-Line",
-        "headerTitle": "102nd Dragoons",
-        "headerSubtitle": "3rd Armored Corps",
+        "system": "Sideralis Reach",
+        "gate": "Kokshaal-Too Station",
+        "ring": "Cascade-Line",
+        "headerTitle": "Vanguard Fleet 16",
+        "headerSubtitle": "UNS Rio Grande",
         "subheaderTitle": "[Lancer Group Name]",
-        "subheaderSubtitle": "Delta-Echo-Echo-Zulu",
+        "subheaderSubtitle": "Expedtionary Bravo",
       },
       "options":{
         "eventsMarkdownPerMission": true
