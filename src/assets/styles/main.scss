@@ -5,9 +5,9 @@
 /*-------------------------------------*/
 
 //Primary Colors
-$primary: rgba(125, 187, 187, 1);
-$secondary: rgba(23, 29, 30, 0.8);
-$highlight-hover: rgba(255, 255, 255, 0.3);
+$primary: rgba(244, 220, 181, 1);
+$secondary: rgba(255, 159, 128, 0.8);
+$highlight-hover: rgba(185, 205, 160, 0.8);
 $highlight-active: rgba(255, 255, 255, 0.1);
 
 //Primary Text
@@ -45,6 +45,7 @@ $text-markdown-h2: rgba(255, 255, 255, 0.87);
   0% {
     transform: translateX(-100%);
   }
+
   100% {
     transform: translateX(0);
   }
@@ -54,9 +55,11 @@ $text-markdown-h2: rgba(255, 255, 255, 0.87);
   0% {
     transform: translateX(-5000%) skew(-0.785398rad);
   }
+
   90% {
     transform: translateX(-25%) skew(-0.785398rad);
   }
+
   100% {
     transform: translateX(0) skew(-0.785398rad);
   }
@@ -66,16 +69,20 @@ $text-markdown-h2: rgba(255, 255, 255, 0.87);
   0% {
     opacity: 0;
   }
+
   10% {
     opacity: 0.2;
   }
+
   15%,
   40% {
     opacity: 0.05;
   }
+
   30% {
     opacity: 0.4;
   }
+
   100% {
     opacity: 1;
   }
@@ -116,6 +123,7 @@ header {
   display: inline-flex;
   align-items: center;
   column-gap: 1em;
+
   .title-container {
     display: flex;
     flex-direction: column;
@@ -230,6 +238,7 @@ div.location-info {
 .location-row {
   height: 40px;
   display: flex;
+
   h4 {
     margin: 0px;
     line-height: 1.5em;
@@ -239,6 +248,7 @@ div.location-info {
     text-transform: uppercase;
     letter-spacing: 3px;
   }
+
   .subtitle {
     font-size: 18px;
     margin: 0%;
@@ -248,9 +258,11 @@ div.location-info {
     text-transform: uppercase;
     letter-spacing: 0.1em;
   }
+
   div {
     padding: 0px 15px;
   }
+
   #planet {
     width: 315px;
   }
@@ -347,18 +359,23 @@ section .section-header {
   }
 
   ::-webkit-scrollbar {
-    width: 12px; /* width of the entire scrollbar */
+    width: 12px;
+    /* width of the entire scrollbar */
   }
 
   ::-webkit-scrollbar-track {
-    background: none; /* color of the tracking area */
+    background: none;
+    /* color of the tracking area */
   }
 
   ::-webkit-scrollbar-thumb {
-    background-color: $primary; /* color of the scroll thumb */
-    border-radius: 20px; /* roundness of the scroll thumb */
+    background-color: $primary;
+    /* color of the scroll thumb */
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
     border: 3px solid $secondary;
-    margin: 3px; /* creates padding around scroll thumb */
+    margin: 3px;
+    /* creates padding around scroll thumb */
   }
 }
 
@@ -408,6 +425,7 @@ section .section-header {
   .name {
     flex-grow: 8;
   }
+
   h1 {
     margin: 0px;
     margin-bottom: 0.25em;
@@ -449,6 +467,7 @@ section .section-header {
     filter: url(#round);
     clip-path: polygon(0 0, 45px 100%, 100% 100%, 100% 0%);
     -webkit-clip-path: polygon(0 0, 45px 100%, 100% 100%, 100% 0%);
+
     img {
       width: 24px;
       height: 24px;
@@ -601,7 +620,7 @@ section .section-header {
   transition: 0.5s ease;
 }
 
-.o-modal > div:nth-child(2) {
+.o-modal>div:nth-child(2) {
   position: absolute;
   left: 50px;
   top: 142px;
@@ -611,18 +630,23 @@ section .section-header {
 
 .pilot-modal {
   ::-webkit-scrollbar {
-    width: 12px; /* width of the entire scrollbar */
+    width: 12px;
+    /* width of the entire scrollbar */
   }
 
   ::-webkit-scrollbar-track {
-    background: none; /* color of the tracking area */
+    background: none;
+    /* color of the tracking area */
   }
 
   ::-webkit-scrollbar-thumb {
-    background-color: $primary; /* color of the scroll thumb */
-    border-radius: 20px; /* roundness of the scroll thumb */
+    background-color: $primary;
+    /* color of the scroll thumb */
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
     border: 3px solid $secondary;
-    margin: 3px; /* creates padding around scroll thumb */
+    margin: 3px;
+    /* creates padding around scroll thumb */
   }
 
   .pilot-header-container {
@@ -637,6 +661,7 @@ section .section-header {
     gap: 15px;
     padding-left: 16px;
     margin-top: -38px !important;
+
     h1 {
       font-size: 26px;
       margin: 0%;
@@ -727,6 +752,7 @@ footer {
   opacity: 0.1;
   color: $text-location;
   transition: 2s ease-in-out;
+
   p {
     font-family: "Inconsolata", monospace;
     font-weight: 400;
@@ -735,6 +761,7 @@ footer {
     color: $text-pilot-code;
     flex-grow: 2;
   }
+
   a {
     font-family: "Inconsolata", monospace;
     font-weight: 400;
@@ -806,7 +833,7 @@ div.markdown {
     list-style-image: url("../bullet.png");
   }
 
-  ol{
+  ol {
     display: block;
     margin-block-start: 0.25em;
     margin-block-end: 0.25em;
@@ -814,8 +841,9 @@ div.markdown {
     margin-inline-end: 0px;
     padding-inline-start: 20px;
     margin-bottom: 1em;
-    li{
-      margin-bottom:0.5em;
+
+    li {
+      margin-bottom: 0.5em;
     }
   }
 }
