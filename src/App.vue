@@ -141,8 +141,8 @@ export default {
         "ring": "Cascade-Line",
         "headerTitle": "Vanguard Fleet 16",
         "headerSubtitle": "UNS Rio Grande",
-        "subheaderTitle": "[Lancer Group Name]",
-        "subheaderSubtitle": "Expedtionary Bravo",
+        "subheaderTitle": "ACTIVE ASSIGNMENT",
+        "subheaderSubtitle": "[LANCER SQUAD NAME]",
       },
       "options":{
         "eventsMarkdownPerMission": true
