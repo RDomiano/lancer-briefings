@@ -139,7 +139,7 @@ export default {
         "system": "Sideralis Reach",
         "gate": "Kokshaal-Too Station",
         "ring": "Cascade-Line",
-        "headerTitle": "Vanguard Fleet 16",
+        "headerTitle": "Solstice Rain",
         "headerSubtitle": "UNS Rio Grande",
         "subheaderTitle": "ACTIVE ASSIGNMENT",
         "subheaderSubtitle": "[LANCER SQUAD NAME]",
