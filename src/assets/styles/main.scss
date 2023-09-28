@@ -418,7 +418,7 @@ section .section-header {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
   padding-left: 0.75em;
-  font-family: "Titillium Web", cursive;
+  font-family: 'Pixelify Sans', cursive;
   font-weight: 400;
   display: flex;
   align-items: center;
@@ -786,9 +786,9 @@ footer:hover {
 div.markdown {
   padding-left: 1em;
   padding-right: 1em;
-  font-size: 16px;
+  font-size: 14px;
   margin: 0%;
-  font-family: "Titillium Web", cursive;
+  font-family: 'Pixelify Sans', cursive;
   font-weight: 400;
   color: $text-markdown-p;
   border-bottom: 1px solid $primary;
