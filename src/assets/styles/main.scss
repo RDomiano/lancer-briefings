@@ -41,6 +41,7 @@ $text-markdown-h2: rgba(255, 255, 255, 0.87);
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 
 @keyframes slideInFromLeft {
@@ -132,7 +133,7 @@ header {
   }
 
   #title-header {
-    font-size: 32px;
+    font-size: 30px;
     margin: 0%;
     align-self: center;
     font-family: 'Pixelify Sans', cursive;
@@ -142,7 +143,7 @@ header {
   }
 
   #title-subheader {
-    font-size: 32px;
+    font-size: 30px;
     margin: 0%;
     align-self: center;
     font-family: "Pixelify Sans", cursive;
@@ -153,7 +154,7 @@ header {
   }
 
   #subtitle-header {
-    font-size: 24px;
+    font-size: 22px;
     margin: 0%;
     align-self: center;
     font-family: "Pixelify Sans", cursive;
@@ -244,7 +245,7 @@ div.location-info {
   h4 {
     margin: 0px;
     line-height: 1.5em;
-    font-family: "Raleway", sans-serif;
+    font-family: 'VT323', monospace;
     font-size: 10px;
     font-weight: 800;
     text-transform: uppercase;
@@ -252,7 +253,7 @@ div.location-info {
   }
 
   .subtitle {
-    font-size: 18px;
+    font-size: 16px;
     margin: 0%;
     align-self: center;
     font-family: "Pixelify Sans", cursive;
@@ -329,7 +330,7 @@ section .section-header {
   }
 
   h1 {
-    font-size: 26px;
+    font-size: 24px;
     margin: 0%;
     align-self: center;
     font-family: "Pixelify Sans", cursive;
@@ -348,7 +349,7 @@ section .section-header {
 
   h3 {
     color: $primary;
-    font-size: 18px;
+    font-size: 16px;
     padding: 1em;
     padding-bottom: 0px;
     margin: 0%;
@@ -432,7 +433,7 @@ section .section-header {
     margin: 0px;
     margin-bottom: 0.25em;
     line-height: 1.5em;
-    font-family: "Raleway", sans-serif;
+    font-family: 'VT323', monospace;
     font-size: 10px;
     font-weight: 800;
     text-transform: uppercase;
@@ -441,7 +442,7 @@ section .section-header {
   }
 
   h2 {
-    font-size: 18px;
+    font-size: 16px;
     margin: 0%;
     align-self: center;
     font-family: "Pixelify Sans", cursive;
@@ -549,7 +550,7 @@ section .section-header {
     margin: 0px;
     margin-bottom: 0.25em;
     line-height: 1.5em;
-    font-family: "Raleway", sans-serif;
+    font-family: 'VT323', monospace;
     font-size: 10px;
     font-weight: 800;
     text-transform: uppercase;
@@ -558,7 +559,7 @@ section .section-header {
   }
 
   h2 {
-    font-size: 18px;
+    font-size: 16px;
     margin: 0%;
     margin-bottom: 0.25em;
     align-self: center;
@@ -665,7 +666,7 @@ section .section-header {
     margin-top: -38px !important;
 
     h1 {
-      font-size: 26px;
+      font-size: 24px;
       margin: 0%;
       align-self: center;
       font-family: "Pixelify Sans", cursive;
@@ -803,7 +804,7 @@ div.markdown {
     margin: 0px;
     margin-bottom: 0.25em;
     line-height: 1.5em;
-    font-family: "Raleway", sans-serif;
+    font-family: 'VT323', monospace;
     font-size: 10px;
     font-weight: 800;
     text-transform: uppercase;
@@ -812,7 +813,7 @@ div.markdown {
   }
 
   h2 {
-    font-size: 18px;
+    font-size: 16px;
     margin: 0%;
     margin-bottom: 1em;
     align-self: center;
