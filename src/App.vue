@@ -106,7 +106,7 @@ export default {
           "code": "[Enter IDENT Code]",
           "corpro": "GMS",
           "frame": "Everest",
-          "mech": "[Enter Chassis Name]"
+          "mech": "placeholder"
         },
         {
           "callsign": "Placeholder",
@@ -114,7 +114,7 @@ export default {
           "code": "[Enter IDENT Code]",
           "corpro": "GMS",
           "frame": "Everest",
-          "mech": "[Enter Chassis Name]"
+          "mech": "placeholder"
         },
         {
           "callsign": "Placeholder",
@@ -122,7 +122,7 @@ export default {
           "code": "[Enter IDENT Code]",
           "corpro": "GMS",
           "frame": "Everest",
-          "mech": "[Enter Chassis Name]"
+          "mech": "placeholder"
         },
         {
           "callsign": "Placeholder",
@@ -130,7 +130,7 @@ export default {
           "code": "[Enter IDENT Code]",
           "corpro": "GMS",
           "frame": "Everest",
-          "mech": "[Enter Chassis Name]"
+          "mech": "placeholder"
         },
       ],
       "header": {
