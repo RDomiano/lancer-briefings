@@ -40,6 +40,7 @@ $text-markdown-h2: rgba(255, 255, 255, 0.87);
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&?family=Big+Shoulders+Display:wght@400;600;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
+@import './assets/sass/font.scss'
 
 @keyframes slideInFromLeft {
   0% {
@@ -133,7 +134,7 @@ header {
     font-size: 32px;
     margin: 0%;
     align-self: center;
-    font-family: "Big Shoulders Display", cursive;
+    font-family: "PressStart2P";
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 0.15em;
