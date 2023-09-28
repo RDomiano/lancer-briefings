@@ -66,7 +66,7 @@
     </defs>
   </svg>
   <audio autoplay>
-    <source src="/startup.ogg" type="audio/ogg" />
+    <source src="/GMS Fem HUD Online.mp3" type="audio/mpeg" />
   </audio>
   <Footer/>
 </template>
