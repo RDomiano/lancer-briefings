@@ -147,10 +147,10 @@ export default {
         "system": "Sideralis Reach",
         "gate": "Kokshaal-Too Station",
         "ring": "Cascade-Line",
-        "headerTitle": "Solstice Rain",
-        "headerSubtitle": "UNS Rio Grande",
-        "subheaderTitle": "ACTIVE ASSIGNMENT",
-        "subheaderSubtitle": "[LANCER SQUAD NAME]",
+        "headerTitle": "Operation Solstice Rain",
+        "headerSubtitle": "",
+        "subheaderTitle": "UNS Rio Grande",
+        "subheaderSubtitle": "17th Paladins",
       },
       "options":{
         "eventsMarkdownPerMission": true
