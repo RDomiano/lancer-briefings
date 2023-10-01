@@ -101,36 +101,44 @@ export default {
       ],
       "pilots": [
         {
-          "callsign": "Placeholder",
-          "alias": "[Enter Pilot Name]",
-          "code": "[Enter IDENT Code]",
+          "callsign": "Cosmos",
+          "alias": "Butch Ryder",
+          "code": "42d90239-7417-4413-956c-3641cffe5a8d ",
           "corpro": "GMS",
           "frame": "Everest",
-          "mech": "placeholder"
+          "mech": "Supernova"
         },
         {
-          "callsign": "Placeholder",
-          "alias": "[Enter Pilot Name]",
-          "code": "[Enter IDENT Code]",
+          "callsign": "Lighthouse",
+          "alias": "Duke Ryder",
+          "code": "3684bf58-99ea-4dd0-bad2-c108fa991528",
           "corpro": "GMS",
           "frame": "Everest",
-          "mech": "placeholder"
+          "mech": "Beacon"
         },
         {
-          "callsign": "Placeholder",
-          "alias": "[Enter Pilot Name]",
-          "code": "[Enter IDENT Code]",
+          "callsign": "Wrench",
+          "alias": "Leo",
+          "code": "623eda96-3cf4-41a0-b787-6b202567547d",
           "corpro": "GMS",
-          "frame": "Everest",
-          "mech": "placeholder"
+          "frame": "Sagarmatha",
+          "mech": "Titan"
         },
         {
-          "callsign": "Placeholder",
-          "alias": "[Enter Pilot Name]",
-          "code": "[Enter IDENT Code]",
+          "callsign": "Diamond",
+          "alias": "Leopold Lanoie",
+          "code": "8aZbP-3WcR5-dfG2H-6iJmK4-7L1NqO9",
           "corpro": "GMS",
           "frame": "Everest",
-          "mech": "placeholder"
+          "mech": "Im So Happy Here"
+        },
+        {
+          "callsign": "Crusader",
+          "alias": "Richard October",
+          "code": "6a55f886-4d4c-42bf-8bcc-0c103187d242",
+          "corpro": "GMS",
+          "frame": "Chomolungma",
+          "mech": "Flamberg"
         },
       ],
       "header": {
