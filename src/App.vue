@@ -11,13 +11,8 @@
         <Markdown :source="current_md" class="markdown" />
         <h3>Mission List</h3>
         <div class="mission-list-container">
-          <Mission
-            v-for="item in this.missions"
-            :key="item.slug"
-            :mission="item"
-            :selected="this.mission_slug"
-            @click="selectMission(item)"
-          />
+          <Mission v-for="item in this.missions" :key="item.slug" :mission="item" :selected="this.mission_slug"
+            @click="selectMission(item)" />
         </div>
       </div>
     </section>
@@ -45,22 +40,12 @@
       </div>
     </section>
   </div>
-  <svg
-    style="visibility: hidden; position: absolute;"
-    width="0"
-    height="0"
-    xmlns="http://www.w3.org/2000/svg"
-    version="1.1"
-  >
+  <svg style="visibility: hidden; position: absolute;" width="0" height="0" xmlns="http://www.w3.org/2000/svg"
+    version="1.1">
     <defs>
       <filter id="round">
         <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur" />
-        <feColorMatrix
-          in="blur"
-          mode="matrix"
-          values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -5"
-          result="goo"
-        />
+        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -5" result="goo" />
         <feComposite in="SourceGraphic" in2="goo" operator="atop" />
       </filter>
     </defs>
@@ -68,7 +53,7 @@
   <audio autoplay>
     <source src="/startup_old.ogg" type="audio/ogg" />
   </audio>
-  <Footer/>
+  <Footer />
 </template>
 
 <script>
@@ -89,7 +74,7 @@ export default {
 
   data() {
     return {
-      "mission_slug": "002",
+      "mission_slug": "003",
       "current_md": "",
       "events": "",
       "missions": [
@@ -101,6 +86,11 @@ export default {
         {
           "slug": "002",
           "name": "Daybreak",
+          "status": "partial-success",
+        },
+        {
+          "slug": "003",
+          "name": "Thunderbolt",
           "status": "start",
         },
       ],
@@ -152,12 +142,12 @@ export default {
         "system": "Sideralis Reach",
         "gate": "Kokshaal-Too Station",
         "ring": "Cascade-Line",
-        "headerTitle": "Operation Solstice Rain",
+        "headerTitle": "Operation Thunderbolt",
         "headerSubtitle": "",
         "subheaderTitle": "UNS Rio Grande",
         "subheaderSubtitle": "17th Paladins",
       },
-      "options":{
+      "options": {
         "eventsMarkdownPerMission": true
       }
     }
@@ -176,7 +166,7 @@ export default {
     selectMission(mission) {
       this.mission_slug = mission.slug;
       this.loadMissionMarkdown()
-      if(this.options.eventsMarkdownPerMission){
+      if (this.options.eventsMarkdownPerMission) {
         this.loadEventsMarkdown();
       }
     },
@@ -194,7 +184,7 @@ export default {
       let self = this;
       let md = "";
 
-      if(self.options.eventsMarkdownPerMission){
+      if (self.options.eventsMarkdownPerMission) {
         md = `/events/${self.mission_slug}.md`
       }
       else {
