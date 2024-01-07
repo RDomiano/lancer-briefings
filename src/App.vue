@@ -198,9 +198,9 @@ export default {
 
 <style lang="scss">
 #app {
-  width: 1802px;
+  width: 1702px;
   height: 910px;
   overflow: hidden;
-  margin-right: 100px;
+  margin-right: 200px;
 }
 </style>
