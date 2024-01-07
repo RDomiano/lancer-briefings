@@ -103,14 +103,14 @@ export default {
           "frame": "Everest",
           "mech": "Supernova"
         },
-        //{
-        //"callsign": "Lighthouse",
-        //"alias": "Duke Ryder",
-        //"code": "3684bf58-99ea-4dd0-bad2-c108fa991528",
-        //"corpro": "GMS",
-        //"frame": "Everest",
-        //"mech": "Beacon"
-        //},
+        {
+          "callsign": "Lighthouse",
+          "alias": "Duke Ryder",
+          "code": "3684bf58-99ea-4dd0-bad2-c108fa991528",
+          "corpro": "Vestan Demonworks",
+          "frame": "EX-102",
+          "mech": "Nyx"
+        },
         {
           "callsign": "Wrench",
           "alias": "Leo",
