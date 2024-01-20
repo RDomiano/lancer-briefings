@@ -16,7 +16,7 @@
         </div>
       </div>
     </section>
-    <section class="section-container" id="events" style="width:480px; height:714px;">
+    <section class="section-container" id="events" style="width:520px; height:714px;">
       <div class="section-header clipped-medium-backward">
         <img src="/icons/events-icon.svg" />
         <h1>Events Log</h1>
@@ -25,7 +25,7 @@
         <Markdown :source="events" class="markdown" />
       </div>
     </section>
-    <section class="section-container" id="pilots" style="width:794px; height:714px;">
+    <section class="section-container" id="pilots" style="width:694px; height:714px;">
       <div style="height:52px; overflow:hidden;">
         <div class="section-header clipped-medium-backward-pilot">
           <img src="/icons/pilot-icon.svg" />
@@ -74,7 +74,7 @@ export default {
 
   data() {
     return {
-      "mission_slug": "003",
+      "mission_slug": "004",
       "current_md": "",
       "events": "",
       "missions": [
@@ -93,15 +93,20 @@ export default {
           "name": "Thunderbolt",
           "status": "success",
         },
+        {
+          "slug": "004",
+          "name": "Dustgrave",
+          "status": "start",
+        },
       ],
       "pilots": [
         {
           "callsign": "Cosmos",
           "alias": "Butch Ryder",
           "code": "42d90239-7417-4413-956c-3641cffe5a8d ",
-          "corpro": "GMS",
-          "frame": "Everest",
-          "mech": "Supernova"
+          "corpro": "IPS-N",
+          "frame": "Nelson",
+          "mech": "Unregulated Lightning"
         },
         {
           "callsign": "Lighthouse",
@@ -115,7 +120,7 @@ export default {
           "callsign": "Wrench",
           "alias": "Leo",
           "code": "623eda96-3cf4-41a0-b787-6b202567547d",
-          "corpro": "GMS",
+          "corpro": "IPS-N",
           "frame": "Blackbeard",
           "mech": "Titan"
         },
@@ -201,6 +206,6 @@ export default {
   width: 1702px;
   height: 910px;
   overflow: hidden;
-  margin-right: 150px;
+  margin-right: 100px;
 }
 </style>
