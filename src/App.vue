@@ -131,9 +131,9 @@ export default {
       "header": {
         "planet": "Havelburg",
         "year": "5014u",
-        "system": "Sideralis Reach",
-        "gate": "Kokshaal-Too Station",
-        "ring": "Cascade-Line",
+        "system": "Sideralis",
+        "gate": "Kokshaal",
+        "ring": "Cascade",
         "headerTitle": "Dustgrave",
         "headerSubtitle": "",
         "subheaderTitle": "UNS Rio Grande",
@@ -201,6 +201,6 @@ export default {
   width: 1702px;
   height: 910px;
   overflow: hidden;
-  margin-right: 200px;
+  margin-right: 150px;
 }
 </style>
