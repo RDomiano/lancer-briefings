@@ -16,7 +16,7 @@
         </div>
       </div>
     </section>
-    <section class="section-container" id="events" style="width:520px; height:714px;">
+    <section class="section-container" id="events" style="width:450px; height:714px;">
       <div class="section-header clipped-medium-backward">
         <img src="/icons/events-icon.svg" />
         <h1>Events Log</h1>
@@ -25,7 +25,7 @@
         <Markdown :source="events" class="markdown" />
       </div>
     </section>
-    <section class="section-container" id="pilots" style="width:694px; height:714px;">
+    <section class="section-container" id="pilots" style="width:794px; height:714px;">
       <div style="height:52px; overflow:hidden;">
         <div class="section-header clipped-medium-backward-pilot">
           <img src="/icons/pilot-icon.svg" />
