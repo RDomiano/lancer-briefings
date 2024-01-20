@@ -129,12 +129,12 @@ export default {
         }
       ],
       "header": {
-        "planet": "Cressidium",
+        "planet": "Havelburg",
         "year": "5014u",
         "system": "Sideralis Reach",
         "gate": "Kokshaal-Too Station",
         "ring": "Cascade-Line",
-        "headerTitle": "Operation Thunderbolt",
+        "headerTitle": "Dustgrave",
         "headerSubtitle": "",
         "subheaderTitle": "UNS Rio Grande",
         "subheaderSubtitle": "17th Paladins",
