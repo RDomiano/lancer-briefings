@@ -112,9 +112,9 @@ export default {
           "callsign": "Lighthouse",
           "alias": "Duke Ryder",
           "code": "3684bf58-99ea-4dd0-bad2-c108fa991528",
-          "corpro": "Vestan Demonworks",
-          "frame": "EX-102",
-          "mech": "Nyx"
+          "corpro": "Smith-Shimano Corporation",
+          "frame": "Black Witch",
+          "mech": "Beacon Guardian"
         },
         {
           "callsign": "Wrench",
@@ -206,6 +206,6 @@ export default {
   width: 1702px;
   height: 910px;
   overflow: hidden;
-  margin-right: 100px;
+  margin-right: 200px;
 }
 </style>
