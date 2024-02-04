@@ -128,8 +128,8 @@ export default {
           "callsign": "Diamond",
           "alias": "Leopold Lanoie",
           "code": "8aZbP-3WcR5-dfG2H-6iJmK4-7L1NqO9",
-          "corpro": "IPS-N",
-          "frame": "Zheng",
+          "corpro": "Smith-Shimano Corporation",
+          "frame": "Monarch",
           "mech": "Reality Change"
         }
       ],
