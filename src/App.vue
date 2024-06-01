@@ -96,7 +96,7 @@ export default {
         {
           "slug": "004",
           "name": "Dustgrave",
-          "status": "Success",
+          "status": "success",
         },
         {
           "slug": "005",
