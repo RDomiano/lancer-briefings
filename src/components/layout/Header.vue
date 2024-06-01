@@ -14,9 +14,10 @@
       </div>
     </div>
     <div class="rhombus">&nbsp;</div>
-    <video autoplay muted loop width="90px" height="90px">
-      <source src="/planet.webm" type="video/webm" />
-    </video>
+    <!-- <video autoplay muted loop width="90px" height="90px">-->
+    <img src="/asteroid_Lighthouse.png" alt="Asteroid Lighthouse" width="90px" height="90px" />
+
+    <!-- </video> -->
     <div class="location-info">
       <div class="location-row" id="planet-year">
         <div id="planet">
@@ -61,5 +62,4 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>
