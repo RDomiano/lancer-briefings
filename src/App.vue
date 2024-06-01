@@ -74,7 +74,7 @@ export default {
 
   data() {
     return {
-      "mission_slug": "004",
+      "mission_slug": "005",
       "current_md": "",
       "events": "",
       "missions": [
@@ -96,6 +96,11 @@ export default {
         {
           "slug": "004",
           "name": "Dustgrave",
+          "status": "Success",
+        },
+        {
+          "slug": "005",
+          "name": "Lighthouse",
           "status": "start",
         },
       ],
