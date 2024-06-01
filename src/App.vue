@@ -121,25 +121,25 @@ export default {
           "alias": "Leo",
           "code": "623eda96-3cf4-41a0-b787-6b202567547d",
           "corpro": "IPS-N",
-          "frame": "Blackbeard",
-          "mech": "Titan"
+          "frame": "Vlad",
+          "mech": "Walachia"
         },
         {
           "callsign": "Diamond",
           "alias": "Leopold Lanoie",
           "code": "8aZbP-3WcR5-dfG2H-6iJmK4-7L1NqO9",
-          "corpro": "Smith-Shimano Corporation",
-          "frame": "Monarch",
-          "mech": "Reality Change"
+          "corpro": "IPS-N",
+          "frame": "Stortebeker",
+          "mech": "Proper Procedure"
         }
       ],
       "header": {
-        "planet": "Havelburg",
+        "planet": "None - Space Travel",
         "year": "5014u",
         "system": "Sideralis",
         "gate": "Kokshaal",
         "ring": "Cascade",
-        "headerTitle": "Dustgrave",
+        "headerTitle": "Grande Adventures",
         "headerSubtitle": "",
         "subheaderTitle": "UNS Rio Grande",
         "subheaderSubtitle": "17th Paladins",
